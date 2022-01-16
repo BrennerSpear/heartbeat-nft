@@ -1,8 +1,8 @@
 {
-    "name": "tokenGarden-nft",
+    "name": "heartbeat-nft",
     "version": "0.1.0",
     "license": "GPL-3.0-or-later",
-    "description": "Solidity for TokenGarden",
+    "description": "Solidity for Heartbeat",
     "main": "index.js",
     "scripts": {
         "test": "npx hardhat test",
@@ -11,7 +11,6 @@
         "prod-verify": "HARDHAT_NETWORK=mainnet ts-node scripts/verify.ts"
     },
     "author": "Brenner Spear",
-    "license": "MT",
     "devDependencies": {
         "@nomiclabs/hardhat-ethers": "^2.0.2",
         "@nomiclabs/hardhat-etherscan": "^2.1.4",

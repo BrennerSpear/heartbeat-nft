@@ -6,7 +6,7 @@ import '@openzeppelin/contracts/access/Ownable.sol';
 import '@openzeppelin/contracts/utils/Counters.sol';
 import '@openzeppelin/contracts/utils/Strings.sol';
 
-contract tokenGarden is ERC721, Ownable {
+contract heartbeat is ERC721, Ownable {
     using Counters for Counters.Counter;
     Counters.Counter private _tokenIds;
     string public metadataFolderURI;
@@ -53,7 +53,6 @@ contract tokenGarden is ERC721, Ownable {
         require(tx.origin == msg.sender, "dont get Seven'd");
         require(minted[msg.sender] < mintsPerAddress, 'only 1 mint per wallet address');
 
-        // First 144 are free
         if (freeMints <= _tokenIds.current()) {
             require(msg.value == price, 'minting is no longer free, it costs 0.01 eth');
         }

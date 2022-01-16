@@ -1,4 +1,4 @@
-# eth Age NFT
+# Heartbeat
 
 ## setup
 `npm install`
@@ -13,4 +13,4 @@ Add your keys to your .env file
 `npm run test`
 
 ## Deploy to rinkeby
-`npm run deploy ethAge`
+`npm run deploy heartbeat`

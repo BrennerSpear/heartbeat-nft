@@ -3,10 +3,10 @@ import { ethers } from 'hardhat';
 import { parseEther, formatUnits } from 'ethers/lib/utils';
 import { payment, shouldThrow, bigNtoN } from './helpers/utils';
 import { SignerWithAddress } from '@nomiclabs/hardhat-ethers/signers';
-import { contractName, contractArgs } from '../nfts/tokenGarden';
+import { contractName, contractArgs } from '../NFTs/heartbeat';
 import { Contract, ContractFactory } from '@ethersproject/contracts';
 
-describe('tokenGarden contract', () => {
+describe('heartbeat contract', () => {
     let owner: SignerWithAddress,
         bob: SignerWithAddress,
         charlie: SignerWithAddress,
