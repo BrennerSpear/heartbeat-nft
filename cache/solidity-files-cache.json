@@ -2,8 +2,8 @@
   "_format": "hh-sol-cache-2",
   "files": {
     "/Users/brenner/repos/heartbeat-nft/contracts/heartbeat.sol": {
-      "lastModificationDate": 1642301144258,
-      "contentHash": "4cd3bac54d451e89b7bb0f2c14e6c79f",
+      "lastModificationDate": 1642301198111,
+      "contentHash": "94b50627d18e9eb0025f67d7588ed9fb",
       "sourceName": "contracts/heartbeat.sol",
       "solcConfig": {
         "version": "0.8.6",

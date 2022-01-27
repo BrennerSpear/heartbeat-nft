@@ -3,7 +3,7 @@ const contractName = 'heartbeat'; //links to the file name in contracts/<filenam
 const env = process.env.HARDHAT_NETWORK === 'mainnet' ? 'heartbeat' : 'heartbeat-dev';
 
 const nftName = 'Heartbeat';
-const symbol = 'HB';
+const symbol = 'HBEAT';
 const metadataFolderURL = `https://${env}.themetagame.xyz/api/v1/metadata/`;
 const freeMints = 0;
 const mintsPerAddress = 1;
